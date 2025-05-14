@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero">
+    <h2>Automatic Question Paper Generator</h2>
+    <p>Streamline your exam preparation with our AI-powered question paper generator. Upload your model papers and syllabus to get customized question papers in seconds.</p>
+    <a href="{{ url_for('generate_paper') }}" class="btn btn-large">Generate Paper Now</a>
+</div>
+
+<div class="features">
+    <div class="feature">
+        <i>📝</i>
+        <h3>Easy to Use</h3>
+        <p>Simple interface that lets you generate papers with just a few clicks</p>
+    </div>
+    <div class="feature">
+        <i>⚡</i>
+        <h3>Fast Processing</h3>
+        <p>Get your customized question papers in seconds</p>
+    </div>
+    <div class="feature">
+        <i>🎯</i>
+        <h3>Accurate Results</h3>
+        <p>Questions tailored to your specific syllabus requirements</p>
+    </div>
+</div>
+{% endblock %}

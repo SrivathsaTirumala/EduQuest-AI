@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h2>Generate Question Paper</h2>
+    <p>Upload the required documents to generate your customized question paper</p>
+    
+    <form method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="model_paper">Model Paper (PDF)</label>
+            <input type="file" id="model_paper" name="model_paper" accept="application/pdf" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="syllabus">Syllabus (PDF)</label>
+            <input type="file" id="syllabus" name="syllabus" accept="application/pdf" required>
+        </div>
+        
+        <button type="submit">Generate Question Paper</button>
+    </form>
+</div>
+{% endblock %}
