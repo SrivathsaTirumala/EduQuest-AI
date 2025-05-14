@@ -8,3 +8,8 @@ This project generates question papers automatically based on a model paper and 
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+
+## Contact 📧
+- **Srivathsa Tirumala**  
+- **Email**: srivathsa180104@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/srivathsa-tirumala/
