@@ -9,7 +9,7 @@ from reportlab.pdfgen import canvas
 # Debug: Print the API key to verify it's being read correctly
 #print("Groq API Key:", app.config['GROQ_API_KEY'])
 
-client = groq.Client(api_key='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')
+client = groq.Client(api_key='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')
 
 def extract_text_from_pdf(pdf_file):
     """Extract text from a PDF file."""
